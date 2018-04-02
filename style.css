@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  background: #d7E1EB;
+  background: linear-gradient(90deg, #ec008c, #fc6767);
+  color: #fafafa;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.site-wrap {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: space-around;
+  margin: 0;
+  padding: 0;
+}
