@@ -11,9 +11,9 @@ function getWeather(location) {
   // };
   http.onload = function() {
     const data = JSON.parse(http.response);
-    console.log(data);
+    const temprature = Math.round(data.main.temp);
     city.innerHTML = data.name;
-    temp.innerHTML = `${data.main.temp}*C`;
+    temp.innerHTML = `${temprature}*C`;
     wind.innerHTML = `${data.wind.speed} kmph`;
     logo.innerHTML = `<img alt="weather logo" src="${data.weather[0].icon}">`;
   };

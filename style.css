@@ -29,3 +29,24 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.weather {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5em 1em;
+  border-radius: 4px 4px 2px 2px;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.17);
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.weather__primary {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.weather__secondary {
+  text-align: center;
+  font-size: 2.5rem;
+}
